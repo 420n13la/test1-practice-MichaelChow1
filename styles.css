@@ -1,6 +1,5 @@
 body{
 	background-image: url(pattern2.png);
-	font-family: 'Roboto Slab', serif;
 }
 
 nav{
@@ -12,7 +11,7 @@ header{
 	background-repeat: repeat;
 	height: 50px;
 }
-.h1list{
+.list{
 	margin-top: 50px;
 	color:white;
 	margin-left:auto;
@@ -23,21 +22,22 @@ header{
 	text-align:center;
 	margin-right: 5px;
 	margin-left:5px;
- background-image: linear-gradient(to bottom,#6B82CD,  #3A4FB5,#3A8CB5,#3AA5B5,#3AB5AD);
+	background-image: linear-gradient(to bottom,#00FFFF, #00FFFF,#7FFFD4,#00BFFF,#87CEFA);
 }
 
-a{  padding: 0.5em;
+a{
+	padding: 0.5em;
 	background-color: black;
 	color: white;
 	border-style: solid;
 	border-color: green;}
 
-.figure1{
+.figure2{
   
-  width: 80%;
+  size: 80%;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px, 10px, 15px blue;
   display: block;
   margin-bottom:15px;
   margin-top: 15px;
@@ -61,11 +61,9 @@ hr{
   border-width: 6px;
 }
 
-.headerlogo{
-	margin-top: -30px;
-	width: 10px 10px 10px;
-	
-    
+.headerimg{
+	width: 40%;
+	height: 40%;
 }
 
 dt{
@@ -80,3 +78,7 @@ dd{margin-right: 20px;
 
 }
 small{font-size:15px}
+
+h1{
+	text-align: center;
+}
