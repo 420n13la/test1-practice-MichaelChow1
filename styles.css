@@ -1,0 +1,82 @@
+body{
+	background-image: url(pattern2.png);
+	font-family: 'Roboto Slab', serif;
+}
+
+nav{
+	background-color: aliceblue;
+}
+
+header{
+	background: url(photo1.png);
+	background-repeat: repeat;
+	height: 50px;
+}
+.h1list{
+	margin-top: 50px;
+	color:white;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.gradpar{
+	text-align:center;
+	margin-right: 5px;
+	margin-left:5px;
+ background-image: linear-gradient(to bottom,#6B82CD,  #3A4FB5,#3A8CB5,#3AA5B5,#3AB5AD);
+}
+
+a{  padding: 0.5em;
+	background-color: black;
+	color: white;
+	border-style: solid;
+	border-color: green;}
+
+.figure1{
+  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  display: block;
+  margin-bottom:15px;
+  margin-top: 15px;
+}
+
+#wrapper { width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url(photo4.png);
+   background-size: cover;
+
+}
+
+hr{
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 6px;
+}
+
+.headerlogo{
+	margin-top: -30px;
+	width: 10px 10px 10px;
+	
+    
+}
+
+dt{
+    font-weight: bold;
+	font-size: 20px;
+}
+dd{margin-right: 20px;
+	margin-left: 20px;
+	font-size: 17px;
+	font-style: italic;
+   
+
+}
+small{font-size:15px}
