@@ -1,18 +1,24 @@
   <head>
     <title>Multi Practice Lab</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="csstestpractice.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   </head>
   <body>
- 
+ <div id="wrapper">
       <header>
+
         <h1>Multi Practice Lab</h1>
+        <img clas="headerlogo"src="icon3.png">
+
       </header>
       <nav>
         <a href = "">Home</a>&nbsp;&nbsp;<a href = "">Properties</a>&nbsp;&nbsp;<a href = "">About</a> 
       </nav>
       <main>
-        <h1>List of CSS properties and new HTML elements added to this web page</h1>
-        <dl>
+        
+        <h1 class="h1list">List of CSS properties and new HTML elements added to this web page</h1>
+        <dl class="gradpar">
           <dt><strong>background-color</strong></dt>
             <dd>I used this property to set the color of the nav element. I set it to aliceblue</dd>
           <dt><strong>background-image</strong></dt>
@@ -23,7 +29,8 @@
           <dt><strong>border</strong></dt>
             <dd>I added a border for all my links. The type of the border is solid and the color is green</dd>
           <dt><strong>box-shadow</strong></dt>
-            <dd>I inserted an image (see figure 1 below) and added a shadow</dd>  
+            <dd>I inserted an image (see figure 1 below) and added a shadow</dd> 
+            <img class="figure1" src="figure1.png"> 
           <dt><strong>float</strong></dt>
             <dd>I created a div element that takes only 50% of the width of this page. I set its left and right margins to 'auto' because I wanted to centralise it. I then inserted a photo to cover all its background by setting background-size to 'cover'</dd>   
           <dt><strong>hr</strong></dt>
@@ -34,9 +41,10 @@
             <dd>I added an .5em padding to all my links because I set their background-color to black and their color to white and I wanted to create space around the links' text</dd> 
         </dl>
       </main>
-      
+      <hr>
       <footer>
-        <small>Copyright <em>&copy;</em> Saint-Lambert. <a href = "">Send me</a> other properties to demo on my website.</small>
-      </footer>  
+        <small>Copyright <em>&copy;</em> Saint-Lambert. <a href = "mailto: oli@gmail.com">Send me</a> other properties to demo on my website.</small>
+      </footer> 
+      </div> 
   </body>  
 </html> 
