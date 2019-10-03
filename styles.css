@@ -1,3 +1,5 @@
+h1{text-align: center;}
+
 body{
 	background-image: url(pattern2.png);
 }
@@ -78,7 +80,3 @@ dd{margin-right: 20px;
 
 }
 small{font-size:15px}
-
-h1{
-	text-align: center;
-}
